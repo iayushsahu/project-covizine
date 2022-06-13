@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contact.js */
+.form {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background: #010606;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.inputformi {
+  width: 550px;
+  height: 50px;
+}
+
+.formh1 {
+  font-size: 2.5rem;
+}
+
+.form > textarea {
+  min-height: 140px;
+  max-height: 155px;
+  min-width: 550px;
+  max-width: 550px;
+}
+
+.messageform {
+  padding-left: 12px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: #01bf71;
+  font-weight: bold;
+  padding-right: 500px;
+}
+
+.form > button {
+  padding: 10px 30px;
+  color: #000;
+  background: #01bf71;
+  border: none;
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 430px;
+}
+
+.form > button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .formh1 {
+    font-size: 2rem;
+  }
+  .inputformi {
+    width: 280px;
+    height: 30px;
+  }
+  .form > textarea {
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 280px;
+    max-width: 0px;
+  }
+  .form > label {
+    padding-bottom: 7px;
+    padding-right: 250px;
+  }
+  .form {
+    height: 100vh;
+    margin-top: -100px;
+  }
+  .form > button {
+    margin-right: 185px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .formh1 {
+    font-size: 2rem;
+  }
+  .inputformi {
+    width: 300px;
+    height: 30px;
+  }
+  .form > textarea {
+    min-height: 140px;
+    max-height: 140px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+  .form > label {
+    padding-bottom: 7px;
+    padding-right: 250px;
+  }
+  .form {
+    height: 115vh;
+    margin-top: -100px;
+  }
+  .form > button {
+    margin-right: 185px;
+    margin-top: 0;
+  }
+}

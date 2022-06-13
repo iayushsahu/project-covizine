@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .inputformsub {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -7px;
+    border: 1px solid lightgray;
+    background: rgb(236, 236, 236);
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+    width: 400px;
+    height: 45px;
+  }
+  
+  .btn-sub {
+    padding: 10px 25px;
+    color: #000;
+    background: #01bf71;
+    border: none;
+    border-radius: 50px;
+    font-weight: 350;
+    font-size: 18px;
+    cursor: pointer; 
+    margin-top: 20px;
+  }
+  
+  .btn-sub:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .inputformi {
+      width: 300px;
+      height: 30px;
+    }
+    .form > button {
+      margin-right: 185px;
+      margin-top: 0;
+    }
+  }
+    
